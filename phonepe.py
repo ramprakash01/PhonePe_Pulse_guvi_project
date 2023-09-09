@@ -206,7 +206,7 @@ if selected == "Explore Data":
                 f"select state, sum(count) as Total_Transactions, sum(amount) as Total_amount from map_trans where year = {Year} and quarter = {Quarter} group by state order by state")
             df1 = pd.DataFrame(mycursor.fetchall(), columns=['State', 'Total_Transactions', 'Total_amount'])
             df2 = pd.read_csv(
-                r'C:\Users\Ram d\Downloads\\Phonepe_Pulse_Data_Visualization\Data\Phonepe_Pulse_Data_Visualization\Data\Statenames.csv')
+                r'C:\Users\Ram d\Downloads\Phonepe_Pulse_Data_Visualization\Data\Statenames.csv')
             df1.State = df2
 
             fig = px.choropleth(df1,
