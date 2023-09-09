@@ -9,7 +9,7 @@ db_name = 'phonepe_pulse'
 host = '3307'
 
 # CSV file path
-csv_file_path = 'C:\Users\Ram d\Downloads\Phonepe_Pulse_Data_Visualization\Data\Phonepe_Pulse_Data_Visualization\Data\top_trans.csv'
+csv_file_path = 'C:\Users\Ram d\Downloads\Phonepe_Pulse_Data_Visualization\Data\top_trans.csv'
 
 # Specify the target table name in your database
 table_name = 'top_trans'
